@@ -24,3 +24,9 @@ Sur Synology
   1.Récupérer l'image dans la partie registre
   2.Lancer l'image dans la partie image
   3.Puis lancer le container plus tard.
+
+Sur le terminal SSH
+  1.Se connecter avec ssh username@adresse.fr -p num_port
+    Clé de connexion comme pour se connecter via DSM
+  2.Lancer l'image avec la commande sudo
+    sudo docker run nomimage
