@@ -1,0 +1,26 @@
+Pour faire un dépôt Docker et le mettre sur le Synology:
+
+  1.Faire un fichier .py
+  2.Faire un fichier nommé Dockerfile
+  3.Faire d'autres fichiers si nécessaires
+  4.Faire un dépôt git :
+    - git init
+    - git remote add origin https://github.com/USERNAME/REPONAME
+    - git add README.md
+    - git commit -m "init commit"
+    - git add .
+    - etc ...
+    - git push -u origin master
+
+Sur Docker-hub
+  1.Se connecter ou créer un compte
+  2.Créer un répertoire
+  3.Sélectionner un dépôt git
+  4.Ajouter les règles et informations complémentaires
+  5.Lancer le build (quelques minutes)
+
+
+Sur Synology
+  1.Récupérer l'image dans la partie registre
+  2.Lancer l'image dans la partie image
+  3.Puis lancer le container plus tard.
